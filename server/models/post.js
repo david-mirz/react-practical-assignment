@@ -1,6 +1,6 @@
 const { getTable, updateTable, generateId } = require("../db/dbUtils");
 const { TABLE_NAMES } = require("../db/tables/tables");
-const { validate } = require("../db/validation");;
+const { validate } = require("../db/validation");
 
 exports.postSchema = {
     title: {

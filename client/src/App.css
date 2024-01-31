@@ -1,0 +1,97 @@
+div{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    width: 95%;
+    border-radius: 10px;
+}
+
+.post-list{
+    display: flow;
+    flex-direction: column;
+}
+
+.post-new{
+    display: flex;
+    flex-direction: row;
+    background-color: #a0bcf5;
+    border: 3px solid black;
+}
+
+.post-card {
+    background-color: #a0bcf5;
+    border: 3px solid black;
+}
+
+.post-footer{
+    margin: 0px;
+    display: flex;
+    flex-direction: row ;
+}
+
+.buttons{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+}
+
+.username-timestamp{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.post-text {
+    border: 2px solid dodgerblue;
+}
+
+.comments-section {
+    background-color: #fcbdbd;
+    border: 2px solid indianred;
+    align-items: center;
+}
+
+.comments-card {
+    background-color: #90b99b;
+    border: 3px solid #043d04;
+}
+
+button.btn {
+    margin: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.65em;
+    color: #fff;
+    outline: none;
+}
+
+.btn.like{
+    background-color: #4fc966;
+    border: 2px solid #2aa24f;
+}
+.btn.post{
+    background-color: #4fc966;
+    border: 2px solid #2aa24f;
+}
+
+.btn.dislike{
+    background-color: #c93964;
+    border: 2px solid #ac254d;
+}
+.btn.edit
+{
+    background-color: #4f88c9;
+    border: 2px solid #2a54a2;
+}
+
+.btn.delete{
+    background-color: #c93964;
+    border: 2px solid #ac254d;
+}
+
+
